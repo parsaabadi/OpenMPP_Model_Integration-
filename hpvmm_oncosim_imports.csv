@@ -1,0 +1,12 @@
+parameter_name,parameter_rank,from_name,from_model_name,is_sample_dim
+HpvClearanceHazard,3,IM_ClearanceHazard,hpvmm,TRUE
+HpvPersistentProportion,2,IM_PersistentProportion,hpvmm,TRUE
+IncidenceRatesHPV,7,IM_Incidence,hpvmm,TRUE
+NonavalentCapable,0,IM_NonavalentCapable,hpvmm,FALSE
+PhiMaleRR,1,IM_PhiMaleRR,hpvmm,FALSE
+ProbImmunityUponClearance,2,IM_BigM,hpvmm,TRUE
+UserBigPhi,3,IM_BigPhi,hpvmm,TRUE
+UserPhi,3,IM_Phi,hpvmm,TRUE
+VaccinationProgramDesign,2,IM_VaccinationProgramDesign,hpvmm,FALSE
+VaccineDegreeOfProtection,2,IM_VaccineDegreeOfProtection,hpvmm,FALSE
+VaccineProportionProtected,2,IM_VaccineProportionProtected,hpvmm,FALSE
