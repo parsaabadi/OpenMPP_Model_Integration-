@@ -4,7 +4,7 @@
 HPVMM to OncoSim Dimension Mapping Script
 Author: Parsa Abadi
 
-Applies all dimension vocabulary mappings discovered during real integration testing.
+Applies all dimension vocabulary mappings discovered during integration testing.
 This script handles the specific vocabulary differences between HPVMM and OncoSim models.
 """
 
