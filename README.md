@@ -9,8 +9,7 @@ Automated pipeline for integrating HPVMM simulation data into OncoSim models on 
 ### Prerequisites
 - Windows with OpenM++ installed
 - Completed HPVMM simulation
-- Python 3 (if using dimension fixing script)
-
+- Python 3 
 ### Automated Integration
 
 1. **Convert HPVMM data to OncoSim parameters**
@@ -70,10 +69,6 @@ The pipeline automatically fixes vocabulary differences between HPVMM and OncoSi
 **Vaccination Status:** Not_vaccinated → VS_NOT_VACCINATED, Vaccinated → VS_VACCINATED
 
 **Program Elements:** Deactivated_0_or_Activated_1 → VPEC_ACTIVE, Minimum_age_0_99 → VPEC_MIN_AGE
-
-## Testing Results
-
-Validated with real HPVMM simulation containing 6,113,441 entities and 29,953 incidence rate values. Successfully transferred 11 parameters with automatic dimension mapping applied to 6 parameter files.
 
 ## Troubleshooting
 
