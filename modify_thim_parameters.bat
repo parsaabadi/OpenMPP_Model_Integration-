@@ -56,7 +56,7 @@ echo Running THIM with modified parameters...
 echo Expected result: entities should be ~84,000 instead of 843
 echo.
 
-THIM.exe -OpenM.SetName Default -OpenM.RunName THIM_Modified_Population -OpenM.SubValues 1 -OpenM.Threads 1
+THIM.exe -OpenM.SetName Default -OpenM.RunName THIM_Modified_Population -OpenM.SubValues 16 -OpenM.Threads 4
 
 echo.
 echo ===== MODIFICATION COMPLETE =====
