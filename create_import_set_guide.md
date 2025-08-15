@@ -261,4 +261,4 @@ for %%r in (Run1 Run2 Run3) do (
 4. **Monitor disk space:** Large simulations can generate substantial output files
 5. **Test with sample data:** Start with small runs before processing large simulations
 
-This tool enables seamless parameter transfer between OpenM++ models, facilitating complex multi-model epidemiological analyses. 
+This tool enables seamless parameter transfer between OpenM++ models. 
